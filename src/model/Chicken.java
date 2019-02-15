@@ -8,6 +8,7 @@ public abstract class Chicken {
         this.type = type;
         this.price = price;
     }
+
     public abstract double computeMaxNumber(double money);
 
     public String getType() {
